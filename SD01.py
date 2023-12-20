@@ -22,3 +22,9 @@ def kelvin_to_celsius(kelvin):
 # Function to convert Kelvin to Fahrenheit
 def kelvin_to_fahrenheit(kelvin):
     return (kelvin - 273.15) * 9/5 + 32
+
+# Function to handle temperature conversion based on user input
+def temperature_converter():
+    # Input temperature value and unit from the user
+    temperature = float(input("Enter the temperature value: "))
+    unit = input("Enter the unit of measurement (Celsius, Fahrenheit, or Kelvin): ").lower()
