@@ -18,3 +18,7 @@ def fahrenheit_to_kelvin(fahrenheit):
 # Function to convert Kelvin to Celsius
 def kelvin_to_celsius(kelvin):
     return kelvin - 273.15
+
+# Function to convert Kelvin to Fahrenheit
+def kelvin_to_fahrenheit(kelvin):
+    return (kelvin - 273.15) * 9/5 + 32
